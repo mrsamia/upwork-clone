@@ -1,12 +1,15 @@
-import Upworklogo from '../src/Components/Logos/Upwork_logo.svg';
 import './App.css';
 import Nav from './Components/Nav/Nav';
+import StartNetworking from './Pages/StartNetworking';
+
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-    
+    <div className="">
+      <Nav />
+      <div className="container">
+        <StartNetworking />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .App-logo {
   height: 21px;
   pointer-events: none;
-  padding: 0px 20px;
+  padding: 0px 0px;
   cursor: pointer;
 }
 
@@ -13,7 +13,9 @@
 .navbar-nav .navItems {
   color: white;
 }
-
+.navbar-nav .activenavItems{
+  color: #85DF2B;
+}
 .dropbtn {
   color: white;
   padding: 16px;
@@ -53,28 +55,47 @@
 .dropdown:hover .dropbtn {
   color: #85DF2B;
 }
-.frm_cntrl{
-width: 100%;
-padding: 0.375rem 0.75rem;
-font-size: 15px;
-color: white !important;
-background-color: #2B5468 !important;
-border: none !important;
-appearance: none;
-border-radius: 50px !important;
-margin: 0px 30px;
+
+.frm_cntrl {
+  width: 315px !important;
+  padding: 6px 8px !important;
+  font-size: 15px;
+  color: white !important;
+  background-color: #2B5468 !important;
+  border: none !important;
+  appearance: none;
+  border-radius: 20px !important;
+  margin: 0px 20px;
+  position: initial;
 }
+
 .navbar-nav {
-  margin: 0px 55px;
+  margin: 0px 0px;
 }
-.help_logo{
-color: white;
-height: 25px;
-cursor: pointer;
-padding: 0px 12px;
+
+.help_logo {
+  color: white;
+  height: 25px;
+  cursor: pointer;
+  padding: 0px 12px;
 }
-.samia_logo{
-  height: 45px;
+
+.samia_logo {
+  height: 40px;
   width: 45px;
   border-radius: 50%;
+  padding-left: 4px;
+}
+
+.nav-btn-icon {
+  height: 100%;
+  line-height: 0;
+  padding: 0 3px;
+  color: var(--nav-search-icons-color)
+}
+
+.fi {
+  color: white;
+  position: absolute;
+
 }

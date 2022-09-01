@@ -1,0 +1,69 @@
+.Start_Networking_Wrapper{
+    background-color: #13544E;
+    color: white;
+    padding: 30px 55px;
+    border-radius: 6px;
+    margin-top: 30px!important;
+}
+.start_netwrk_btn{
+    color: white;
+    background-color: #14A800;
+    border-color: transparent;
+    line-height: 1;
+    border-radius: 10rem;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.network_logo{
+    width: 145px;
+    height: 130px;
+}
+.txt_p{
+    font-size: 14.5px;
+}
+.ProfileCard_Wrapper{
+    margin-top: 30px!important;  
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-left: 20px;
+   
+}
+.profile-title{
+   color: black;
+   font-size: 18px;
+   font-weight: 500;
+}
+.profile_logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.progress_Wrapper{
+    background-color: #E4EBE4;
+    border-bottom:  1px solid #e0e0e0;
+    border-top:1px solid #e0e0e0 ;
+    padding: 20px 30px;
+}
+.progress{
+    height: 5px!important;
+    width: 80%;
+    border-radius: 0px!important;
+   
+}
+.bgSuccess{
+    background-color: #95DF00!important;
+}
+.font_md{
+    font-weight: 500;
+}
+.font_color{
+color: #14A800;
+}
+.base_Padding{
+    padding: 20px 30px;  
+}
+.base_border{
+    border-bottom:  1px solid #e0e0e0;
+}
