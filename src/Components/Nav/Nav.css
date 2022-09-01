@@ -1,10 +1,13 @@
 .App-logo {
-  height: 30px;
+  height: 21px;
   pointer-events: none;
+  padding: 0px 20px;
+  cursor: pointer;
 }
 
 .nav_bg {
   background-color: #1D4354;
+  height: 70px;
 }
 
 .navbar-nav .navItems {
@@ -49,4 +52,29 @@
 
 .dropdown:hover .dropbtn {
   color: #85DF2B;
+}
+.frm_cntrl{
+width: 100%;
+padding: 0.375rem 0.75rem;
+font-size: 15px;
+color: white !important;
+background-color: #2B5468 !important;
+border: none !important;
+appearance: none;
+border-radius: 50px !important;
+margin: 0px 30px;
+}
+.navbar-nav {
+  margin: 0px 55px;
+}
+.help_logo{
+color: white;
+height: 25px;
+cursor: pointer;
+padding: 0px 12px;
+}
+.samia_logo{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
 }
