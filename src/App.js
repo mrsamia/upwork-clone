@@ -5,9 +5,9 @@ import StartNetworking from './Pages/StartNetworking';
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <Nav />
-      <div className="container">
+      <div className="container main">
         <StartNetworking />
       </div>
     </div>

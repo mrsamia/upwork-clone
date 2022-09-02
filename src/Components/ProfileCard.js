@@ -1,5 +1,8 @@
 import React from 'react';
+import BlackTitleText from './BlackTitleText';
 import GreenText from './GreenText';
+import { FiSearch } from "react-icons/fi";
+import Pen_Icon from './Pen_Icon';
 
 function ProfileCard(props) {
     return (
@@ -14,18 +17,40 @@ function ProfileCard(props) {
                 <p>Expert React.js Developer</p>
             </div>
             <div className='progress_Wrapper'>
-            <p className='font_md'>Profile Completeness:</p>
-            <div className="progress">
-                <div className="progress-bar bgSuccess" role="progressbar" style={{width: '100%',height:'5px'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+                <BlackTitleText title="Profile Completeness" />
+                <div className="progress">
+                    <div className="progress-bar bgSuccess" role="progressbar" style={{ width: '100%', height: '5px' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
             </div>
             <div className='base_Padding base_border'>
-                <GreenText title="40 Available Connects"/>
+                <GreenText title="40 Available Connects" />
             </div>
-            <div className='base_Padding font_md'>
-             <p>My Categories</p>
-             <GreenText title="Web Development"/>
+            <div className='base_Padding base_border'>
+                <div className='d-flex  '>
+                    <BlackTitleText title="Availability Badge" /> <Pen_Icon/>  
+                </div>
+                <div className='d-flex pt'>
+                    <BlackTitleText title="Hours per week" /><Pen_Icon/>   
+                </div>
+                <div>
+                    <p>As Needed - Open to Offers</p>
+                </div>
+                <div className='d-flex pt '>
+                    <BlackTitleText title="Profile Visibility" /><Pen_Icon/> 
+                </div>
+                <div>
+                    <p>Public</p>
+                </div>
             </div>
+            <div className='base_Padding '>
+                <div className='d-flex '>
+                    <BlackTitleText title="My Categories" /><Pen_Icon/> 
+                </div>
+                <div>
+                    <GreenText title="Web Development" />
+                </div>
+            </div>
+
         </div>
 
     );

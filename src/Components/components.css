@@ -28,6 +28,7 @@
     border: 1px solid #e0e0e0;
     border-radius: 6px;
     margin-left: 20px;
+    background-color: white;
    
 }
 .profile-title{
@@ -66,4 +67,18 @@ color: #14A800;
 }
 .base_border{
     border-bottom:  1px solid #e0e0e0;
+}
+.pen_icon{
+    color: #656565;
+    margin: 0px 8px;  
+}
+.cir{
+    height: 32px;
+    width: 32px;
+    margin: 0px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+}
+.pt{
+    padding-top: 20px;
 }

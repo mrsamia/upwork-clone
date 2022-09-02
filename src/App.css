@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #F1F2F4;
 }
 
 .App-header {
@@ -16,4 +17,7 @@
 .App-link {
   color: #61dafb;
 }
-
+.main{
+  padding: 0px 40px!important;
+ 
+}
