@@ -27,9 +27,7 @@
     margin-top: 30px!important;  
     border: 1px solid #e0e0e0;
     border-radius: 6px;
-    margin-left: 20px;
-    background-color: white;
-   
+    background-color: white; 
 }
 .profile-title{
    color: black;
@@ -81,4 +79,16 @@ color: #14A800;
 }
 .pt{
     padding-top: 20px;
+}
+.h4_font_16{
+    font-size: 18px;
+}
+.pad_left{
+    padding-left: 30px;
+}
+.mr_left{
+    margin-left: 20px;
+}
+.minus_mrgn{
+    margin: 0px -14px;
 }

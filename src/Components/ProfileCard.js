@@ -1,12 +1,12 @@
 import React from 'react';
-import BlackTitleText from './BlackTitleText';
-import GreenText from './GreenText';
+import BlackTitleText from './SingleComponents/BlackTitleText';
+import GreenText from './SingleComponents/GreenText';
 import { FiSearch } from "react-icons/fi";
-import Pen_Icon from './Pen_Icon';
+import PenIcon from './PenIcon';
 
 function ProfileCard(props) {
     return (
-        <div className='ProfileCard_Wrapper'>
+        <div className='ProfileCard_Wrapper mr_left'>
             <div className="text-center pt-4">
                 <img alt="" src="https://www.upwork.com/profile-portraits/c1Wj60NlHObbuoHYiow7JG6hHFWg3cXcrumSAD6jeiUPwEJpA3YoSyqn5lcQn-ZQbJ" className="profile_logo" />
             </div>
@@ -27,16 +27,16 @@ function ProfileCard(props) {
             </div>
             <div className='base_Padding base_border'>
                 <div className='d-flex  '>
-                    <BlackTitleText title="Availability Badge" /> <Pen_Icon/>  
+                    <BlackTitleText title="Availability Badge" /> <PenIcon />
                 </div>
                 <div className='d-flex pt'>
-                    <BlackTitleText title="Hours per week" /><Pen_Icon/>   
+                    <BlackTitleText title="Hours per week" /><PenIcon />
                 </div>
                 <div>
                     <p>As Needed - Open to Offers</p>
                 </div>
                 <div className='d-flex pt '>
-                    <BlackTitleText title="Profile Visibility" /><Pen_Icon/> 
+                    <BlackTitleText title="Profile Visibility" /><PenIcon />
                 </div>
                 <div>
                     <p>Public</p>
@@ -44,7 +44,7 @@ function ProfileCard(props) {
             </div>
             <div className='base_Padding '>
                 <div className='d-flex '>
-                    <BlackTitleText title="My Categories" /><Pen_Icon/> 
+                    <BlackTitleText title="My Categories" /><PenIcon />
                 </div>
                 <div>
                     <GreenText title="Web Development" />
