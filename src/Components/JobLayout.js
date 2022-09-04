@@ -1,4 +1,5 @@
 import React from 'react';
+import JobItems from './JobItems';
 import BlackTitleText from './SingleComponents/BlackTitleText';
 
 function JobLayout(props) {
@@ -18,8 +19,14 @@ function JobLayout(props) {
                     <BlackTitleText title="Saved Jobs" />
                 </div>
             </div>
-            <div className='base_Padding'>
+            <div className='base_Padding base_border'>
                 <p>Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.</p>
+            </div>
+            <div className='base_Padding base_border'>
+                <JobItems/>
+            </div>
+            <div className='base_Padding base_border'>
+                <JobItems/>
             </div>
 
         </div>

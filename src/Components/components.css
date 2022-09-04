@@ -38,6 +38,7 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .progress_Wrapper{
     background-color: #E4EBE4;
@@ -82,6 +83,7 @@ color: #14A800;
 }
 .h4_font_16{
     font-size: 18px;
+    /* color: #656565; */
 }
 .pad_left{
     padding-left: 30px;
@@ -91,4 +93,28 @@ color: #14A800;
 }
 .minus_mrgn{
     margin: 0px -14px;
+}
+.base_Font_size{
+    font-size: 15px;
+    color: #222;
+}
+.base_Font_size_Xs{
+    font-size: 13px;
+    color: #656565;
+    margin-bottom: 8px!important;
+}
+.Skill_Badge{
+    height: 25px;
+    color: #656565;
+    background-color: #f2f2f2;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    margin: 0 5px 10px 0;
+    padding: 0 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    line-height: 1;
+    cursor: default;
+    font-weight: 500;
 }

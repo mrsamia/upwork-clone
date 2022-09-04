@@ -85,6 +85,7 @@
   width: 45px;
   border-radius: 50%;
   padding-left: 4px;
+  object-fit: cover;
 }
 
 .nav-btn-icon {
