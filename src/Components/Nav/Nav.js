@@ -27,10 +27,13 @@ function Nav(props) {
                                 Find Work
                             </a>
                             <div className="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">Something else here</a>
+                                <a className="dropdown-item" href="#"> Find Work</a>
+                                <a className="dropdown-item" href="#">Your Network</a>
+                                <a className="dropdown-item" href="#">Save Jobs</a>
+                                <a className="dropdown-item" href="#">Proposals</a>
+                                <a className="dropdown-item" href="#">profile</a>
+                                <a className="dropdown-item" href="#">My Status</a>
+                                <a className="dropdown-item" href="#">My Project Dashboard</a>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
@@ -38,10 +41,13 @@ function Nav(props) {
                                 My Jobs
                             </a>
                             <div className="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">Something else here</a>
+                            <a className="dropdown-item" href="#"> Find Work</a>
+                                <a className="dropdown-item" href="#">Your Network</a>
+                                <a className="dropdown-item" href="#">Save Jobs</a>
+                                <a className="dropdown-item" href="#">Proposals</a>
+                                <a className="dropdown-item" href="#">profile</a>
+                                <a className="dropdown-item" href="#">My Status</a>
+                                <a className="dropdown-item" href="#">My Project Dashboard</a>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
@@ -49,22 +55,19 @@ function Nav(props) {
                                 Reports
                             </a>
                             <div className="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">Something else here</a>
+                            <a className="dropdown-item" href="#"> Find Work</a>
+                                <a className="dropdown-item" href="#">Your Network</a>
+                                <a className="dropdown-item" href="#">Save Jobs</a>
+                                <a className="dropdown-item" href="#">Proposals</a>
+                                <a className="dropdown-item" href="#">profile</a>
+                                <a className="dropdown-item" href="#">My Status</a>
+                                <a className="dropdown-item" href="#">My Project Dashboard</a>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropbtn navItems" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Messages
                             </a>
-                            <div className="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">Something else here</a>
-                            </div>
                         </li>
                     </ul>
 

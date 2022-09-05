@@ -100,3 +100,6 @@
   position: absolute;
 
 }
+.dropdown-content a{
+  padding: 5px 15px;
+}
