@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './SingleComponents/Button';
 import './components.css';
 import network_logo from './Logos/network.svg';
+import { Link } from "react-router-dom";
 
 function StartNetworkingItems(props) {
     return (
@@ -16,7 +17,7 @@ function StartNetworkingItems(props) {
                     </p>
                 </div>
                 <div>
-                    <Button name="Start Your Network" className="start_netwrk_btn" />
+                <Link to='/yourNetwork' > <Button name="Start Your Network" className="start_netwrk_btn" /> </Link>
                 </div>
             </div>
             <div className='col-3'>
