@@ -27,16 +27,16 @@ function ProfileCard(props) {
             </div>
             <div className='base_Padding base_border'>
                 <div className='d-flex  '>
-                    <BlackTitleText title="Availability Badge" /> <PenIcon />
+                    <BlackTitleText title="Availability Badge" /> <PenIcon id="badge"/>
                 </div>
                 <div className='d-flex pt'>
-                    <BlackTitleText title="Hours per week" /><PenIcon />
+                    <BlackTitleText title="Hours per week" /><PenIcon id="hpw"/>
                 </div>
                 <div>
                     <p>As Needed - Open to Offers</p>
                 </div>
                 <div className='d-flex pt '>
-                    <BlackTitleText title="Profile Visibility" /><PenIcon />
+                    <BlackTitleText title="Profile Visibility" /><PenIcon id="pv"/>
                 </div>
                 <div>
                     <p>Public</p>
@@ -44,7 +44,7 @@ function ProfileCard(props) {
             </div>
             <div className='base_Padding '>
                 <div className='d-flex '>
-                    <BlackTitleText title="My Categories" /><PenIcon />
+                    <BlackTitleText title="My Categories" /><PenIcon id="mc"/>
                 </div>
                 <div>
                     <GreenText title="Web Development" />
