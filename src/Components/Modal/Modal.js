@@ -1,8 +1,8 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import '../Components/Modal/modal.css';
-import '../Components/components.css';
+import './modal.css';
+import '../components.css';
 function Moodal(props) {
 
     return (
@@ -17,8 +17,8 @@ function Moodal(props) {
         </Modal.Body>
 
         <Modal.Footer>
-          <Button className='start_netwrk_btn'>Cancle</Button>
-          <Button onClick={props.onClick}>Save</Button>  
+          <Button className='cancle_btn' >Cancle</Button>
+          <Button onClick={props.onClick} className='save_btn'>Save</Button>  
         </Modal.Footer>
       </Modal>
         </div>

@@ -3,11 +3,18 @@ import JobTitleSixteen from './SingleComponents/JobTitleSixteen';
 import SkillBadgeButton from './SingleComponents/SkillBadgeButton';
 import SkillBadgeButtonItems from './SkillBadgeButtonItems';
 import { IoLocationSharp } from "react-icons/io5";
+import thumb_icon from './Logos/thumb_icon.svg';
 function JobItems(props) {
     return (
         <div>
-            <div>
+            <div className='row'>
+                <div className='col-8'>
                 <JobTitleSixteen title="Website development (Online Assessment Tool)" />
+                </div>
+                <div className='col-4 cir'>
+                <img src={thumb_icon} className="pen_icon" alt="logo" />
+                </div>
+            
             </div>
             <div>
                 <p className='base_Font_size_Xs pt'>

@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from 'react';
 import pen_icon from './Logos/pen_icon.svg';
 import './components.css';
-import modalData from './modalData';
-import Modal from './Modal';
+import modalData from './Modal/modalData';
+import Modal from './Modal/Modal';
 
 
 

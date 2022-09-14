@@ -2,15 +2,22 @@
     max-width: 750px;
 }
 
- .start_netwrk_btn .btn .btn-primary{
-    color: white;
+.save_btn{
+    color: white ;
     background-color: #14A800;
     border-color: transparent;
     line-height: 1;
     border-radius: 10rem;
     padding: 7px 15px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 5px;
-
+    height: 40px;
+    width: 85px;
+}
+.cancle_btn{
+    color:#14A800 ;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
 }
