@@ -1,0 +1,16 @@
+ .modalWidth .modal-dialog{
+    max-width: 750px;
+}
+
+ .start_netwrk_btn .btn .btn-primary{
+    color: white;
+    background-color: #14A800;
+    border-color: transparent;
+    line-height: 1;
+    border-radius: 10rem;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+
+}

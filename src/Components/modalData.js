@@ -1,3 +1,5 @@
+import HoursPerWeek from "./Modal/HoursPerWeek ";
+
 const modalData=[
 {
     id: 'badge',
@@ -6,8 +8,8 @@ const modalData=[
 },
 {
     id: 'hpw',
-    title:"WWWjdhfjdh",
-    body:"WWWWfjgudftugjfdijurtyuit"
+    title:"Hours per week",
+    body:<HoursPerWeek/>
 },
 {
     id: 'pv',
