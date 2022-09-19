@@ -1,11 +1,12 @@
-.Start_Networking_Wrapper{
+.Start_Networking_Wrapper {
     background-color: #13544E;
     color: white;
     padding: 30px 55px;
     border-radius: 6px;
-    margin-top: 30px!important;
+    margin-top: 30px !important;
 }
-.start_netwrk_btn{
+
+.start_netwrk_btn {
     color: white;
     background-color: #14A800;
     border-color: transparent;
@@ -16,94 +17,116 @@
     font-weight: 500;
     margin-top: 5px;
 }
-.network_logo{
+
+.network_logo {
     width: 145px;
     height: 130px;
 }
-.txt_p{
+
+.txt_p {
     font-size: 14.5px;
 }
-.ProfileCard_Wrapper{
-    margin-top: 30px!important;  
+
+.ProfileCard_Wrapper {
+    margin-top: 30px !important;
     border: 1px solid #e0e0e0;
     border-radius: 6px;
-    background-color: white; 
+    background-color: white;
 }
-.profile-title{
-   color: black;
-   font-size: 18px;
-   font-weight: 500;
+
+.profile-title {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
 }
-.profile_logo{
+
+.profile_logo {
     height: 60px;
     width: 60px;
     border-radius: 50%;
     object-fit: cover;
 }
-.progress_Wrapper{
+
+.progress_Wrapper {
     background-color: #E4EBE4;
-    border-bottom:  1px solid #e0e0e0;
-    border-top:1px solid #e0e0e0 ;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
     padding: 20px 30px;
 }
-.progress{
-    height: 5px!important;
+
+.progress {
+    height: 5px !important;
     width: 80%;
-    border-radius: 0px!important;
-   
+    border-radius: 0px !important;
+
 }
-.bgSuccess{
-    background-color: #95DF00!important;
+
+.bgSuccess {
+    background-color: #95DF00 !important;
 }
-.font_md{
+
+.font_md {
     font-weight: 500;
 }
-.font_color{
-color: #14A800;
+
+.font_color {
+    color: #14A800;
 }
-.base_Padding{
-    padding: 20px 30px;  
+
+.base_Padding {
+    padding: 20px 30px;
 }
-.base_border{
-    border-bottom:  1px solid #e0e0e0;
+
+.base_border {
+    border-bottom: 1px solid #e0e0e0;
 }
-.pen_icon{
+
+.pen_icon {
     color: #656565;
-    margin: 0px 8px;  
+    margin: 0px 8px;
 }
-.cir{
+
+.cir {
     height: 32px;
     width: 32px;
     margin: 0px 20px;
     border: 1px solid #e0e0e0;
     border-radius: 50%;
 }
-.pt{
+
+.pt {
     padding-top: 20px;
 }
-.h4_font_16{
+
+.h4_font_16 {
     font-size: 18px;
     /* color: #656565; */
 }
-.pad_left{
+
+.pad_left {
     padding-left: 30px;
 }
-.mr_left{
+
+.mr_left {
     margin-left: 20px;
 }
-.minus_mrgn{
+
+.minus_mrgn {
     margin: 0px -14px;
 }
-.base_Font_size{
+
+.base_Font_size {
     font-size: 15px;
     color: #222;
 }
-.base_Font_size_Xs{
+
+.base_Font_size_Xs {
     font-size: 13px;
     color: #656565;
-    margin-bottom: 8px!important;
+    margin-bottom: 8px !important;
 }
-.Skill_Badge{
+
+.Skill_Badge {
     height: 25px;
     color: #656565;
     background-color: #f2f2f2;
@@ -117,4 +140,19 @@ color: #14A800;
     line-height: 1;
     cursor: default;
     font-weight: 500;
+}
+.jobItemsHeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Hlcir {
+    height: 38px;
+    width: 38px;
+    margin: 0px 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+}
+.hend_icon{
+    margin: 10px 10px;
+    
 }
