@@ -4,8 +4,6 @@ import './components.css';
 import modalData from './Modal/modalData';
 import Modal from './Modal/Modal';
 
-
-
 function Pen_Icon(props) {
   const [modalShow, setModalShow] = useState(false)
   const data = modalData.find(item => item.id === props.id)

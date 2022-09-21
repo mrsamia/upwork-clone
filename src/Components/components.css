@@ -155,3 +155,20 @@
 .hend_icon{
     margin: 10px 10px;
 }
+.Best_Most_SavedJob{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    position: relative;
+    padding: 0px 30px;
+}
+
+.Best_Most_SavedJob.active::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #14A800;
+    left: 0;
+}

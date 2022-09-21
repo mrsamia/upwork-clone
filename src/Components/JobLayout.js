@@ -1,32 +1,67 @@
-import React from 'react';
+import React, { useState } from 'react';
 import JobItems from './JobItems';
+import BestMatches from './SingleComponents/BestMatches';
 import BlackTitleText from './SingleComponents/BlackTitleText';
 
 function JobLayout(props) {
+    const [value, setvalue] = useState(1)
+    function onclick1() {
+        setvalue(1)
+        console.log("clicked")
+    }
+    function onclick2() {
+        setvalue(2)
+        console.log("clicked")
+    }
+    function onclick3() {
+        setvalue(3)
+        console.log("clicked")
+    }
+    console.log(value)
     return (
         <div className='ProfileCard_Wrapper minus_mrgn'>
             <div className='base_Padding '>
                 <h3>Jobs you might like</h3>
             </div>
-            <div className='d-flex base_border '>
-                <div className='pad_left font_color'>
+            <div className='d-flex base_border'>
+                <BestMatches title="Best Matches" value={value === 1} onClick={onclick1} />
+                <BestMatches title="Most Recent" value={value === 2} onClick={onclick2} />
+                <BestMatches title="Saved Jobs" value={value === 3} onClick={onclick3} />
+
+
+
+
+
+                {/* 
+               { value? <div className='font_color Best_Most_SavedJob active'  onClick={onclick}>
                     <BlackTitleText title="Best Matches" />
-                </div>
-                <div className='pad_left'>
+                </div>:<div className='Best_Most_SavedJob ' onClick={onclick}>
+                    <BlackTitleText title="Best Matches" />
+                </div>}
+
+              {   value? <div className='Best_Most_SavedJob ' onClick={onclick}>
                     <BlackTitleText title="Most Recent" />
-                </div>
-                <div className='pad_left'>
+                </div>:<div className='font_color Best_Most_SavedJob active'onClick={onclick}>
+                    <BlackTitleText title="Most Recent" />
+                </div>}
+
+               <div>
+               { value? <div className='Best_Most_SavedJob' onClick={onclick}>
                     <BlackTitleText title="Saved Jobs" />
-                </div>
+                </div>:<div className='font_color Best_Most_SavedJob active 'onClick={onclick}>
+                    <BlackTitleText title="Saved Jobs" />
+                </div>}
+               </div> */}
+
             </div>
             <div className='base_Padding base_border'>
                 <p>Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.</p>
             </div>
             <div className='base_Padding base_border'>
-                <JobItems/>
+                <JobItems />
             </div>
             <div className='base_Padding base_border'>
-                <JobItems/>
+                <JobItems />
             </div>
 
         </div>
