@@ -156,11 +156,13 @@
     margin: 10px 10px;
 }
 .Best_Most_SavedJob{
-    padding-bottom: 0px;
+    padding-bottom: 9px;
     margin-bottom: 0px;
     cursor: pointer;
     position: relative;
-    padding: 0px 30px;
+    padding-left: 30px;
+    padding-right:30px ;
+    
 }
 
 .Best_Most_SavedJob.active::after{
@@ -171,4 +173,19 @@
     height: 2px;
     background-color: #14A800;
     left: 0;
+}
+.verified_icon{
+    width: 12px;
+}
+.verifiedIconPad{
+    display: flex;
+    padding-top: 5px;
+    padding-right: 5px;
+    align-items: center;
+}
+.star_icon{
+    padding-left: 6px;
+    font-size: 14px;
+   display: flex;
+   align-items: center;
 }

@@ -27,32 +27,6 @@ function JobLayout(props) {
                 <BestMatches title="Best Matches" value={value === 1} onClick={onclick1} />
                 <BestMatches title="Most Recent" value={value === 2} onClick={onclick2} />
                 <BestMatches title="Saved Jobs" value={value === 3} onClick={onclick3} />
-
-
-
-
-
-                {/* 
-               { value? <div className='font_color Best_Most_SavedJob active'  onClick={onclick}>
-                    <BlackTitleText title="Best Matches" />
-                </div>:<div className='Best_Most_SavedJob ' onClick={onclick}>
-                    <BlackTitleText title="Best Matches" />
-                </div>}
-
-              {   value? <div className='Best_Most_SavedJob ' onClick={onclick}>
-                    <BlackTitleText title="Most Recent" />
-                </div>:<div className='font_color Best_Most_SavedJob active'onClick={onclick}>
-                    <BlackTitleText title="Most Recent" />
-                </div>}
-
-               <div>
-               { value? <div className='Best_Most_SavedJob' onClick={onclick}>
-                    <BlackTitleText title="Saved Jobs" />
-                </div>:<div className='font_color Best_Most_SavedJob active 'onClick={onclick}>
-                    <BlackTitleText title="Saved Jobs" />
-                </div>}
-               </div> */}
-
             </div>
             <div className='base_Padding base_border'>
                 <p>Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.</p>

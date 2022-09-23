@@ -4,6 +4,8 @@ import SkillBadgeButtonItems from './SkillBadgeButtonItems';
 import { IoLocationSharp } from "react-icons/io5";
 import HandIcon from './Icon/HandIcon';
 import LoveIcon from './Icon/LoveIcon';
+import VerifiedIcon from './Icon/VerifiedIcon';
+import StarIcon from './Icon/StarIcon';
 
 
 function JobItems(props) {
@@ -31,9 +33,12 @@ function JobItems(props) {
             <div>
                 <p className='base_Font_size_Xs'>Proposals: Less than 5</p>
             </div>
-            <div>
-                <p  className='base_Font_size_Xs'>Payment verified $10k+ spent <IoLocationSharp/> Germany</p>
+            <div className='d-flex align-items-center'>
+                <p className='verifiedIconPad'><VerifiedIcon/></p>
+                <p  className='base_Font_size_Xs d-flex align-items-center'>Payment verified $10k+ spent< StarIcon/>< StarIcon/>< StarIcon/></p>
+                <p className='base_Font_size_Xs  d-flex align-items-center' style={{paddingLeft:"5px",fontWeight: 500}}><IoLocationSharp /> Germany</p>
             </div>
+          
         </div>
     );
 }
