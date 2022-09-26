@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import JobItems from './JobItems';
 import BestMatches from './SingleComponents/BestMatches';
-import BlackTitleText from './SingleComponents/BlackTitleText';
+
 
 function JobLayout(props) {
     const [value, setvalue] = useState(1)
@@ -31,12 +31,12 @@ function JobLayout(props) {
             <div className='base_Padding base_border'>
                 <p>Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.</p>
             </div>
-            <div className='base_Padding base_border'>
-                <JobItems />
+            <div>
+                <JobItems/>
+                <JobItems/>
+                <JobItems/>
             </div>
-            <div className='base_Padding base_border'>
-                <JobItems />
-            </div>
+            
 
         </div>
     );

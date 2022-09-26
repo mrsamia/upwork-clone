@@ -10,9 +10,9 @@ import StarIcon from './Icon/StarIcon';
 
 function JobItems(props) {
     return (
-        <div>
+        <div className='base_Padding base_border jobItemWrapper'>
             <div className='jobItemsHeaderWrapper'>
-                <div className=''>
+                <div>
                 <JobTitleSixteen title="Website development (Online Assessment Tool)" />
                 </div>  
                 <div className='d-flex'>
