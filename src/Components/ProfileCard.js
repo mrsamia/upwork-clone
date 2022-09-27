@@ -12,7 +12,7 @@ function ProfileCard(props) {
             </div>
             <div className="text-center">
                 <h3 className="mt-20 mb-0 ">
-                    <a href="/freelancers/~01fa642fa507159323" className="profile-title">Samia R.</a>
+                    <a href="/ProfilePage" className="profile-title">Samia R.</a>
                 </h3>
                 <p>Expert React.js Developer</p>
             </div>
