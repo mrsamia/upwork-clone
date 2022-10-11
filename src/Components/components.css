@@ -80,7 +80,9 @@
 .base_border {
     border-bottom: 1px solid #e0e0e0;
 }
-
+.base_left_border{
+    border-left: 1px solid #e0e0e0;
+}
 .pen_icon {
     color: #656565;
     margin: 0px 8px;

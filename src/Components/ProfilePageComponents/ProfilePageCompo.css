@@ -1,0 +1,24 @@
+.see_publcView {
+    color: black;
+    background-color: transparent;
+    height: 40px;
+    border-color: .5px solid black;
+    line-height: 1;
+    border-radius: 10rem;
+    padding: 7px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.Profile_Setting {
+    color: white;
+    background-color: #14A800;
+    border-color: transparent;
+    line-height: 1;
+    border-radius: 10rem;
+    padding: 7px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    height: 40px;
+}
