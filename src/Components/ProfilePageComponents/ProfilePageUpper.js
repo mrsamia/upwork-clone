@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../SingleComponents/Button';
+import ProfileTitle from './ProfileTitle';
 
 function ProfilePageUpper(props) {
     return (
@@ -14,8 +15,8 @@ function ProfilePageUpper(props) {
                         <Button name="Profile Setting" className="Profile_Setting" />
                     </div>
                     <div className='base_left_border  '>
-                    <div className='pt-5  base_border '>
-                        <h3 className='base_Padding'>Expert React.js Developer</h3>
+                    <div className=' base_border '>
+                       <ProfileTitle/>
                         <p className='pt-4 base_Padding'>
                             I am an enthusiastic and self-taught web developer who loves to bring your ideas and projects to life! I have a massive fascination with new technologies and software. I have more than 3+ Years of working experience in a professional environment. I have been practicing programming for the past seven years.
                         </p>
