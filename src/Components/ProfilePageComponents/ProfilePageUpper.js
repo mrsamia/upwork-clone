@@ -1,5 +1,4 @@
 import React from 'react';
-import BestMatches from '../SingleComponents/BestMatches';
 import Button from '../SingleComponents/Button';
 
 function ProfilePageUpper(props) {

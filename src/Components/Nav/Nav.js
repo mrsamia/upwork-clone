@@ -5,6 +5,7 @@ import notification_logo from '../Logos/notification.svg';
 import directContract_logo from '../Logos/directContract.svg';
 import { FiSearch } from "react-icons/fi";
 import './Nav.css';
+import { Link } from 'react-router-dom';
 function Nav(props) {
     return (
         <nav className=" navbar navbar-expand-lg navbar-light nav_bg ">
@@ -15,7 +16,7 @@ function Nav(props) {
                 </button>
 
                 <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
-                <img src={Upwork_logo} className="App-logo" alt="logo" />
+               <Link to={'/'}> <img src={Upwork_logo} className="App-logo" alt="logo" /></Link>
                     <form className="form-inline my-2 my-lg-0">
                     {/* <FiSearch className='fi'/>  */}
                     <input className="form-control mr-sm-2 frm_cntrl" type="search" placeholder="Search" aria-label="Search" />
