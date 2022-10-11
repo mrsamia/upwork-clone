@@ -22,3 +22,11 @@
     margin-top: 5px;
     height: 40px;
 }
+.Completed_jobs{
+    padding-bottom: 9px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+    font-weight: 500;   
+}
