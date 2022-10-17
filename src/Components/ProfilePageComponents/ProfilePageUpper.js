@@ -28,6 +28,7 @@ function ProfilePageUpper(props) {
                         </div>
                         <div>
                             <JobsReview/>
+                            <JobsReview/>
                         </div>
                     </div>
                 </div>
