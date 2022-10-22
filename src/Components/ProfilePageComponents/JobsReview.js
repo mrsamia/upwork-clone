@@ -8,7 +8,7 @@ function JobsReview(props) {
         <div className='base_Padding base_border pb-3'>
             <BlackTitleText title="Front-end engineer needed to create a website" />
             <div className='d-flex'>
-                <p className='base_Font_size_Xs d-flex align-items-center'>< StarIcon />< StarIcon />< StarIcon />< StarIcon />< StarIcon />Feb 28, 2022 - May 23, 2022 </p>
+                <p className='base_Font_size_Xs d-flex align-items-center'>< StarIcon />< StarIcon />< StarIcon />< StarIcon />< StarIcon /><span className='ratingFive'>5.00</span>Feb 28, 2022 - May 23, 2022 </p>
                 <Pen_Icon />
             </div>
             <p className='jobReviewFont '>

@@ -87,7 +87,13 @@
   padding-left: 4px;
   object-fit: cover;
 }
-
+.samia_logo_2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding-left: 4px;
+  object-fit: cover;
+}
 .nav-btn-icon {
   height: 100%;
   line-height: 0;
